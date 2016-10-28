@@ -12,9 +12,17 @@ import java.util.Calendar;
  * @author Miguel Paz
  */
 public class LogCall {
-    public double numero_marcado;
+    public int numero_marcado;
     public double minutos;
-    public Calendar fecha= Calendar.getInstance();
+    public Calendar fecha;
+    
+    //Constructor
+    public LogCall(int numero_marcado,double minutos){
+        this.numero_marcado= numero_marcado;
+        this.minutos=minutos;
+        fecha= Calendar.getInstance();
+        
+    }
     
     @Override
     public String toString(){

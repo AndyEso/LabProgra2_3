@@ -32,5 +32,8 @@ public class PlanBasico {
         return nombre;
     }
     
+    void call(int numero, double mins){
+        array.add(new )
+    }
     
 }
