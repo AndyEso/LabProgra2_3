@@ -9,6 +9,27 @@ package TG2;
  *
  * @author ANDY ESCOBAR 007
  */
-public class PlanSmart {
+public class PlanSmart extends PlanBasico{
+
+    public PlanSmart(int c, String nomb) {
+        super(c, nomb);
+    }
+    
+    @Override
+    private double pagoMensual(){
+        
+        double pagoxinternet=20;
+        double pagoxplan=22;
+       return pagoxinternet+pagoxplan;
+       
+        
+        
+        
+    }
+    
+    
+    
+    
+    
     
 }
