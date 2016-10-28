@@ -18,10 +18,8 @@ public class PlanSmart extends PlanBasico{
     
     @Override
     public double pagoMensual(){
+        double fijo=42;
         
-        double pagoxinternet=20;
-        double pagoxplan=22;
-        return pagoxinternet+pagoxplan;
        
         
         

@@ -32,4 +32,20 @@ public class PlanTarjeta extends PlanBasico {
            
        }
     }
+    @Override
+    public void call(int numero, double mins){
+        if(mins*0.7>saldo){
+            return;
+        }
+        array.add(new LogCall(numero,mins) );
+        saldo = saldo - (mins*0.7);
+    }
+    @Override
+    public double pagoMensual(){
+        return 0;
+    }
+    @Override
+    public String toString(){
+        return super.toString()+"Saldo: $"+saldo+" Plan Tarjeta";
+    }
 }
