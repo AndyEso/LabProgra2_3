@@ -32,15 +32,23 @@ public class PlanBasico {
         return nombre;
     }
     
-    void call(int numero, double mins){
+    public void call(int numero, double mins){
         array.add(new LogCall(numero,mins) );
     }
     
-    double monthlyMinutes(){
+    public double monthlyMinutes(){
         return 1;
     }
-    double pagoMensual(){
+    public double pagoMensual(){
         return monthlyMinutes()* 0.5;
     } 
+    
+    @Override
+    public String toString(){
+        return "Numero= "+numero_tel+" Nombre= "+nombre;
+    }
+    public void Imprimir(){
+         
+    }
     
 }
