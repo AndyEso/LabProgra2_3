@@ -15,6 +15,7 @@ public class PlanSmart extends PlanBasico{
         super(c, nomb);
     }
     
+    
     @Override
     private double pagoMensual(){
         
@@ -25,6 +26,11 @@ public class PlanSmart extends PlanBasico{
         
         
         
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+" -PlanSmart";
     }
     
     
