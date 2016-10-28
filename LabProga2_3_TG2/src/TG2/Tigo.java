@@ -5,10 +5,21 @@
  */
 package TG2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ANDY ESCOBAR 007
  */
 public class Tigo {
     
+    ArrayList<Tigo> plan=new ArrayList<>();
+    
+    
+    
+    public void addPlan(int numtel,String nombre, String tipo){
+        plan.add();
+        
+        
+    }
 }
