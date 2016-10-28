@@ -41,6 +41,12 @@ public class Tigo {
         return null;
     }
     double makeCall(int numTelOrigen, int numTelDestino, double mins){
+        for(PlanBasico numero: plan){
+                if(numero.getNumero_tel()==num){
+                    
+                }
+                
+        }
         
     }
     double payPlan(int numTel){
