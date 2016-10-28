@@ -33,7 +33,14 @@ public class PlanBasico {
     }
     
     void call(int numero, double mins){
-        array.add(new )
+        array.add(new LogCall(numero,mins) );
     }
+    
+    double monthlyMinutes(){
+        return 1;
+    }
+    double pagoMensual(){
+        return monthlyMinutes()* 0.5;
+    } 
     
 }
