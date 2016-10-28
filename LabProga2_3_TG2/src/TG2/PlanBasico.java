@@ -5,10 +5,32 @@
  */
 package TG2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author David
  */
 public class PlanBasico {
+    //Atributos
+    public int numero_tel;
+    public String nombre;
+    ArrayList<LogCall> array;
+    
+    //Constructor
+    public PlanBasico(int c,String nomb){
+        array = new ArrayList<>();
+    }
+    
+    //Funciones
+
+    public int getNumero_tel() {
+        return numero_tel;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+    
     
 }
