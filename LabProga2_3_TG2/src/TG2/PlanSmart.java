@@ -21,7 +21,7 @@ public class PlanSmart extends PlanBasico{
         
         double pagoxinternet=20;
         double pagoxplan=22;
-       return pagoxinternet+pagoxplan;
+        return pagoxinternet+pagoxplan;
        
         
         
